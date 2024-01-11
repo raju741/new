@@ -47,7 +47,7 @@ public class New_class {
 
 		driver.findElement(By.id("login2")).click();
 
-		driver.findElement(By.id("loginusername")).sendKeys("balubalra741@gmail.com");
+		driver.findElement(By.id("loginusername")).sendKeys("balubalra641@gmail.com");
 
 		driver.findElement(By.id("loginpassword")).sendKeys("balu2227@");
 
