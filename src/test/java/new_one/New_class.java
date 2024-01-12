@@ -17,7 +17,7 @@ public class New_class {
 
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 
 	@Test(priority = 1)
@@ -28,7 +28,7 @@ public class New_class {
 
 		driver.findElement(By.xpath("//a[@id=\"signin2\"]")).click();
 
-		driver.findElement(By.xpath("//input[@id=\"sign-username\"]")).sendKeys("balubalra741@gmail.com");
+		driver.findElement(By.xpath("//input[@id=\"sign-username\"]")).sendKeys("balubalraj741@gmail.com");
 
 		driver.findElement(By.xpath("//input[@id=\"sign-password\"]")).sendKeys("balu2227@");
 
