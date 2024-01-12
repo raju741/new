@@ -17,7 +17,7 @@ public class New_class {
 
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Test(priority = 1)
